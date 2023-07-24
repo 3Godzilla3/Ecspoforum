@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  max-width: 1920px;
+}
+
+.container-header{
+  height: 800px;
+  background-image: url(images/bgc.jpg);
+}
+
+.navi{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 90px;
+}
+
+.navigation{
+  display: flex;
+  list-style-type: none;
+}
+
+.navigation-item a{
+  text-decoration: none;
+  color: white;
+}
+
+.navigation-item{
+  margin-right: 55px;
+}
+
+.text-globe{
+  color: white;
+  margin-top: 6px;
+}
+
+.search a{
+  text-decoration: none;
+}
+
+.search{
+  display: flex;
+}
+
+.img-search{
+  margin-right: 70px;
+}
+
+.globe-search{
+  margin-right: 7px;
+}
+
+/* Первый блок */
+
+.wrapper-secondnavi{
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.left-block-secondnavi{
+  /* background-color: black; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #FFF;
+  width: 535px;
+  height: 200px;
+  margin-right: 37px;
+  font-family: 'Cutive Mono', monospace;
+}
+
+.left-block-secondnavi h1{
+  font-size: 5rem;
+}
+
+.left-block-secondnavi P{
+  font-size: 1.3rem;
+}
+
+.about-text a{
+  color: white;
+  text-decoration: none;
+  align-self: flex-end;
+}
+
+.right-block-secondnavi{
+  margin-top: 100px;
+  width: 540px;
+  height: 353px;
+}
+
+.top-block{
+  display: flex;
+  justify-content: space-between;
+}
+
+.blue-item{
+  color: white;
+  background-color: #2378FC;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 205px;
+  height: 148px;
+  padding-left: 40px;
+  font-family: 'Cutive Mono', monospace;
+}
+
+.green-item{
+  color: white;
+  background-color: #30BCC9;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 205px;
+  height: 148px;
+  padding-left: 40px;
+  font-family: 'Cutive Mono', monospace;
+}
+
+.bot-block{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.yellow-item{
+  color: white;
+  background-color: #FFC41E;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 205px;
+  height: 148px;
+  padding-left: 40px;
+  font-family: 'Cutive Mono', monospace;
+}
+
+.red-item{
+  color: white;
+  background-color: #F6404F;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 205px;
+  height: 148px;
+  padding-left: 40px;
+  font-family: 'Cutive Mono', monospace;
+}
+
+/* Второй блок */
+
+.blue-block-main{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 425px;
+  background-color: #2378FC;
+}
+
+.org-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+  color: #FFF;
+  height: 276px;
+  margin-top: 75px;
+  margin-right: 105px;
+  font-family: 'Cutive Mono', monospace;
+}
+
+.exp-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+  color: #FFF;
+  height: 239px;
+  margin-top: 75px;
+  margin-right: 105px;
+  font-family: 'Cutive Mono', monospace;
+}
+
+.user-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+  color: #FFF;
+  height: 202px;
+  margin-top: 75px;
+  margin-right: 105px;
+  font-family: 'Cutive Mono', monospace;
+}
+
+.press-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+  color: #FFF;
+  height: 165px;
+  margin-top: 75px;
+  font-family: 'Cutive Mono', monospace;
+}
+
+.main-item a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+.main-item a:hover{
+  color: #FFC41E;
+  text-decoration: underline;
+}
+
+.blue-block-main h2{
+  margin-bottom: 20px;
+}
+
+/* Синий блок меню */
+
+.yellow-block-main{
+  height: 984px;
+  background-color: #FFC41E;
+}
+
+.y-block-title{
+  display: flex;
+  justify-content: center;
+}
+
+.y-block-title h2{
+  color: #2E373B;
+  margin-top: 75px;
+  margin-right: 530px;
+  font-family: 'Cutive Mono', monospace;
+}
+
+.y-block-title a{
+  color: #2E373B;
+  margin-top: 78px;
+  font-family: 'Cutive Mono', monospace;
+}
+
+.first-block{
+  display: flex;
+  justify-content: center;
+}
+
+.first-block a{
+  margin-top: 55px;
+}
+
+.elka{
+  margin-right: 30px;
+}
+
+.show{
+  margin-left: 30px;
+}
+
+.second-block{
+  display: flex;
+  justify-content: center;
+}
+
+.second-block a{
+  margin-top: 55px;
+}
+
+.art{
+  margin-right: 30px;
+}
+
+.tour{
+  margin-left: 30px;
+}
+
+/* Жёлтый блок */
+
+.icecream-block-main{
+  height: 649px;
+  background-color: #FAF3E3;
+}
+
+.icecream-block-content{
+  display: flex;
+  justify-content: center;
+}
+
+.park-exp-block{
+  display: flex;
+  flex-direction: column;
+  margin-top: 75px;
+  margin-right: 148px;
+}
+
+.exp{
+  margin-top: 59px;
+}
+
+.party-title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.party-title h2{
+  color: #2E373B;
+  margin-top: 75px;
+  margin-right: 272px;
+  font-family: 'Cutive Mono', monospace;
+}
+
+.party-title a{
+  color: #2E373B;
+  margin-top: 78px;
+  font-family: 'Cutive Mono', monospace;
+}
+
+.news-link{
+  text-decoration: none;
+}
+
+.news-block{
+  display: flex;
+  margin-top: 34px;
+}
+
+.block-text{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.block-text h4{
+  color: #F6404F;
+  font-family: 'Cutive Mono', monospace;
+}
+
+.block-text h3{
+  color: #2E373B;
+  font-family: 'Cutive Mono', monospace;
+}
+
+/* Кремовый блок */
+
+.container-footer{
+  height: 476px;
+  background-color: #30BCC9;
+  display: flex;
+  justify-content: center;
+  font-family: 'Cutive Mono', monospace;
+}
+
+.container-footer a{
+  text-decoration: none;
+  color: #E0E0E0;
+}
+
+.container-footer p{
+  color: #E0E0E0;
+}
+
+.container-footer a:hover{
+  color: #FFC41E;
+  text-decoration: underline;
+}
+
+.container-footer ul{
+  list-style-type: none;
+}
+
+.container-footer h2{
+  color: #FFF;
+  margin-bottom: 20px;
+}
+
+.container-footer li{
+  margin-top: 10px;
+}
+
+.company-organize{
+  margin-left: 120px;
+  margin-right: 82px;
+}
+
+.company-column{
+  margin-top: 60px;
+}
+
+.org-column{
+  margin-top: 40px;
+}
+
+.exp-users{
+  margin-right: 117px;
+}
+
+.exp-column{
+  margin-top: 60px;
+}
+
+.users-column{
+  margin-top: 40px;
+}
+
+.presse-app{
+  margin-right: 120px;
+}
+
+.presse-column{
+  margin-top: 60px;
+}
+
+.app-column{
+  margin-top: 40px;
+}
+.social-column{
+  margin-top: 60px;
+}
+
+.sub-column{
+  margin-top: 50px;
+}
+
+.social-column a{
+  margin-right: 30px;
+}
+
+.email-input{
+  display: flex;
+  height: 40px;
+  width: 255px;
+  margin-top: 15px;
+}
+
+.input-size{
+  width: 215px;
+  height: 40px;
+  color: #9C9C9C;
+  border: none;
+}
+
+/* Бирюзовый блок */
